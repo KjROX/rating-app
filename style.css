@@ -82,6 +82,7 @@ body {
   letter-spacing: 4px;
   font-size: 1.4rem;
   cursor: pointer;
+  transition: background 1s ease;
 }
 .pre-submit button:hover {
   color: #fb7413;
