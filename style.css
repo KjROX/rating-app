@@ -28,6 +28,10 @@ body {
   flex-direction: column;
   gap: 1.5rem;
 }
+.pre-submit.not-visible {
+  display: none;
+}
+
 .star {
   background-color: #2f3b44;
   height: 4rem;
@@ -92,6 +96,10 @@ body {
   align-items: center;
   padding-bottom: 2rem;
 }
+.post-submit.not-visible {
+  display: none;
+}
+
 .thank-you-image {
   width: 100%;
   display: flex;
@@ -114,7 +122,4 @@ body {
 .appreciating-talk {
   color: #959eac;
   font-size: 1.2rem;
-}
-.not-visible {
-  display: none;
 }
