@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Overpass", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid pink;
+  background: #121417;
+  color: white;
+}
+.main {
+  border: 2px solid pink;
+  padding: 2rem 3rem;
+  background-color: #252d37;
+  border-radius: 10px;
+  width: 25%;
+}
+.pre-submit {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.star {
+  background-color: #2f3b44;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.pre-submit h1 {
+  font-size: 3rem;
+}
+.pre-submit p {
+  font-size: 1.5rem;
+  color: #959eac;
+  margin-bottom: 1.5rem;
+}
+.ratings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.rating {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2f3b44;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.rating:hover {
+  background: #959eac;
+}
+.rating-clicked {
+  background: #fb7413;
+}
+.pre-submit button {
+  margin-bottom: 1.5rem;
+  border: none;
+  padding: 1.2rem;
+  border-radius: 20px;
+  color: white;
+  background: #fb7413;
+  letter-spacing: 4px;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.button-clicked {
+  color: #fb7413;
+  background: white;
+}
+.not-visible {
+  display: none;
+}
