@@ -80,13 +80,11 @@ body {
   font-size: 1.4rem;
   cursor: pointer;
 }
-.button-clicked {
+.pre-submit button:hover {
   color: #fb7413;
   background: white;
 }
-.not-visible {
-  display: none;
-}
+
 .post-submit {
   text-align: center;
   display: flex;
@@ -116,4 +114,7 @@ body {
 .appreciating-talk {
   color: #959eac;
   font-size: 1.2rem;
+}
+.not-visible {
+  display: none;
 }
