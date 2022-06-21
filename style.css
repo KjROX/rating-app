@@ -12,12 +12,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid pink;
   background: #121417;
   color: white;
 }
 .main {
-  border: 2px solid pink;
   padding: 2rem 3rem;
   background-color: #252d37;
   border-radius: 10px;
